@@ -1,0 +1,12 @@
+{
+  "name": "movieshouse",
+  "version": "1.0.0",
+  "description": "Integrate all-content learned about programming into a mini-project.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilo-batista/moviesHouse.git"
+  },
+  "author": "danilo-batista <developer@danilobatista.com>",
+  "license": "MIT"
+}
