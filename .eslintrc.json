@@ -5,7 +5,9 @@
         "jest": true
     },
     "extends": [
-        "airbnb-base"
+        "airbnb-base",
+        "prettier",
+        "plugin:prettier/recommended"
     ],
     "overrides": [],
     "parserOptions": {
@@ -13,7 +15,8 @@
         "sourceType": "module"
     },
     "plugins": [
-        "eslint-plugin-import-helpers"
+        "eslint-plugin-import-helpers",
+        "prettier"
     ],
     "rules": {
         "camelcase": "off",
@@ -71,7 +74,8 @@
                     "**/*.spec.js"
                 ]
             }
-        ]
+        ],
+        "prettier/prettier": "error"
     },
     "settings": {
         "import/resolver": {
