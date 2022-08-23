@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Integrate all-content learned about programming into a mini-project.",
   "main": "app.js",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/danilo-batista/moviesHouse.git"
