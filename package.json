@@ -8,5 +8,10 @@
     "url": "git+https://github.com/danilo-batista/moviesHouse.git"
   },
   "author": "danilo-batista <developer@danilobatista.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
 }
